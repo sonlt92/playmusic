@@ -7,8 +7,8 @@
         <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" type="text/css" href="ryuk.css">
-        <link rel="stylesheet" type="text/css" href="ryukclock.css">
+        <!-- <link rel="stylesheet" type="text/css" href="ryuk.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="ryukclock.css"> -->
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
@@ -16,7 +16,7 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/add-on/jplayer.playlist.min.js'></script>
         <script  src="script.js"></script>
     </head>
-    <a href="#">I</a>
+    <!-- <a href="#">I</a>
     <a href="#">L❤VE</a> 
     <a href="#">XÍU</a> 
     <div></div>
@@ -52,14 +52,56 @@
         </script>
         
 
-    </div>
-             
-             
+    </div> -->
+    <div class="music-player">
+        <!--<div style="background-image: url(https://i.imgur.com/yqB0erk.jpg);" class="album"></div>-->
+        
+        <div class="info">
+          
+          <div class="left">
+            <a href="javascript:;" class="icon-shuffle"></a>
+            <a href="javascript:;" class="icon-heart"></a>
+          </div>
+          
+          <div class="center">
+            <div class="jp-playlist">
+              <ul>
+                <li></li>
+              </ul>
+            </div> 
+          </div>
+          
+          <div class="right">
+            <a href="javascript:;" class="icon-repeat"></a>
+            <a href="javascript:;" class="icon-share"></a>
+          </div>
+          
+          <div class="progress"></div>
+          
+        </div>
+            
+        <div class="controls">
+          <div class="current jp-current-time">00:00</div>
+          <div class="play-controls">
+            <a href="javascript:;" class="icon-previous jp-previous" title="previous"></a>
+            <a href="javascript:;" class="icon-play jp-play" title="play"></a>
+            <a href="javascript:;" class="icon-pause jp-pause" title="pause"></a>
+            <a href="javascript:;" class="icon-next jp-next" title="next"></a>
+          </div>
+          <div class="volume-level">
+            <a href="javascript:;" class="icon-volume-up" title="max volume"></a>
+            <a href="javascript:;" class="icon-volume-down" title="mute"></a>
+          </div>
+        </div>
+        
+        <div id="jquery_jplayer" class="jp-jplayer"></div>
+        
+      </div>
+          
+           
    
 
-            
-    <div></div> 
-    <div></div> 
+    
 
     
       
