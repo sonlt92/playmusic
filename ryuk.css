@@ -6,6 +6,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+
 body
 {
     display: -webkit-box;
@@ -24,6 +25,7 @@ body
             flex-direction: column;
     background: #050801;
 }
+
 a
 {
     position: relative;
@@ -41,11 +43,13 @@ a
     letter-spacing: 4px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
+
 a:nth-child(1)
 {
     -webkit-filter: hue-rotate(290deg);
             filter: hue-rotate(290deg);
 }
+
 a:nth-child(3)
 {
     -webkit-filter: hue-rotate(110deg);
@@ -65,6 +69,7 @@ a:hover
                 0 0 50px #03e9f4,
                 0 0 200px #03e9f4;
 }
+
 a span
 {
     position: absolute;
