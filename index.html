@@ -9,6 +9,49 @@
 
     </head>
     <body>
+    
+        <div class="clock">
+        <div class="hour">
+            <div class ="hr" id="hr"></div>
+        </div>
+        <div class="min">
+            <div class="mn" id="mn" ></div>
+        </div>
+        <div class="sec">
+            <div class="sc" id="sc"></div>
+        </div>
+        <script>
+            const deg = 6;
+    
+            const hr = document.querySelector('#hr');
+            const mn = document.querySelector('#mn');
+            const sc = document.querySelector('#sc');
+    
+            setInterval(() => {
+    
+                let day = new Date();
+                let hh = day.getHours() * 30;
+                let mm = day.getMinutes() * deg;
+                let ss = day.getSeconds() * deg;
+    
+                hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+                mn.style.transform = `rotateZ(${mm}deg)`;
+                sc.style.transform = `rotateZ(${ss}deg)`;
+            })
+        </script>
+        
+        <a href="#">
+        
+        I  
+        </a>         
+        <a href="#">
+        
+        L❤VE
+        </a>         
+        <a href="#">
+        
+        XÍU 
+        </a>   
     </div>
     <div id="app-cover">
         <div id="bg-artwork"></div>
@@ -52,49 +95,6 @@
             </div>
         </div>
     </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
-        <div class="clock">
-        <div class="hour">
-            <div class ="hr" id="hr"></div>
-        </div>
-        <div class="min">
-            <div class="mn" id="mn" ></div>
-        </div>
-        <div class="sec">
-            <div class="sc" id="sc"></div>
-        </div>
-        <script>
-            const deg = 6;
-    
-            const hr = document.querySelector('#hr');
-            const mn = document.querySelector('#mn');
-            const sc = document.querySelector('#sc');
-    
-            setInterval(() => {
-    
-                let day = new Date();
-                let hh = day.getHours() * 30;
-                let mm = day.getMinutes() * deg;
-                let ss = day.getSeconds() * deg;
-    
-                hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
-                mn.style.transform = `rotateZ(${mm}deg)`;
-                sc.style.transform = `rotateZ(${ss}deg)`;
-            })
-        </script>
-        
-        <a href="#">
-        
-        I  
-        </a>         
-        <a href="#">
-        
-        L❤VE
-        </a>         
-        <a href="#">
-        
-        XÍU 
-        </a>   
-              
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>       
     </body>
 </html>
