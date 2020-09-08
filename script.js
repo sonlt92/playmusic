@@ -25,9 +25,8 @@ $(function()
 		name: "Demo by Jacky Ryuk",
 		url: "Musics/1.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-	}];
-    var songs = [{
-		artist: "Jacky Ryuk",
+	},{
+		artist: "Jacky Ryuk - Test code",
 		name: "Demo by Jacky Ryuk",
 		url: "Musics/2.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
