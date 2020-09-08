@@ -3,13 +3,13 @@ $(document).ready(function () {
       {
         title: "Flute",
         artist: "Jacky Ryuk",
-        mp3: "http://www.mediafire.com/file/9mzjk2giva7ro4c/1.mp3",
+        mp3: "https://file.io/huCaPfteph5W",
         poster: "https://i.imgur.com/sCbrzQa.png"
       },
       {
         title: "Test by Jacky Ryuk",
         artist: "Jacky Ryuk",
-        mp3: "http://www.mediafire.com/file/lw3r3r8pi0cr0wt/2.mp3",
+        mp3: "https://file.io/O1P9wNRozVoV",
         poster: "https://i.imgur.com/lXvsuBu.png"
       },
       
