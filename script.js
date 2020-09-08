@@ -1,19 +1,19 @@
 $(document).ready(function () {
-    var playlist = [
-      {
-        title: "Flute",
-        artist: "Jacky Ryuk",
-        mp3: "https://file.io/huCaPfteph5W",
-        poster: "https://i.imgur.com/sCbrzQa.png"
-      },
-      {
-        title: "Test by Jacky Ryuk",
-        artist: "Jacky Ryuk",
-        mp3: "https://file.io/O1P9wNRozVoV",
-        poster: "https://i.imgur.com/lXvsuBu.png"
-      },
-      
-    ];
+  var playlist = [
+    {
+      title: "Flute",
+      artist: "Jacky Ryuk",
+      mp3: "https://sharetailieu.jackyryukshare.workers.dev/Vlog/Upload/1.mp3?rootId=0AAdYYkJ4nDeTUk9PVA",
+      poster: "https://i.imgur.com/sCbrzQa.png"
+    },
+    {
+      title: "Test by Jacky Ryuk",
+      artist: "Jacky Ryuk",
+      mp3: "https://sharetailieu.jackyryukshare.workers.dev/Vlog/Upload/2.mp3?rootId=0AAdYYkJ4nDeTUk9PVA",
+      poster: "https://i.imgur.com/lXvsuBu.png"
+    },
+    
+  ];
   
     var cssSelector = {
       jPlayer: "#jquery_jplayer",
