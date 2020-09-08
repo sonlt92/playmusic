@@ -7,7 +7,7 @@
   }
   
   body {
-    background: #eee url("//i.imgur.com/82fLDu4.jpg") no-repeat center;
+    background: #eee url("https://i.imgur.com/82fLDu4.jpg") no-repeat center;
     background-size: cover;
     font-family: "Open Sans", sans-serif;
   }
@@ -102,7 +102,7 @@
     top: -8px;
     width: 8px;
     height: 22px;
-    background: url("//i.imgur.com/tsqwz1N.png") no-repeat center;
+    background: url("https://i.imgur.com/tsqwz1N.png") no-repeat center;
     border: none;
     outline: none;
     margin: 0 0 0 -3px;
@@ -143,7 +143,7 @@
     margin-left: -9px;
     width: 22px;
     height: 22px;
-    background-image: url("//i.imgur.com/V5i67V2.png");
+    background-image: url("https://i.imgur.com/V5i67V2.png");
   }
   .music-player .controls .volume-level .icon-volume-up, .music-player .controls .volume-level .icon-volume-down {
     position: absolute;
@@ -159,39 +159,39 @@
   [class^="icon-"] {
     width: 18px;
     height: 18px;
-    background: url("//i.imgur.com/E09T8tf.png") no-repeat center;
+    background: url("https://i.imgur.com/E09T8tf.png") no-repeat center;
     display: block;
   }
   
   .icon-shuffle {
-    background-image: url("//i.imgur.com/AQAxRxS.png");
+    background-image: url("https://i.imgur.com/AQAxRxS.png");
   }
   .icon-heart {
-    background-image: url("//i.imgur.com/E09T8tf.png");
+    background-image: url("https://i.imgur.com/E09T8tf.png");
   }
   .icon-repeat {
-    background-image: url("//i.imgur.com/338F8MX.png");
+    background-image: url("https://i.imgur.com/338F8MX.png");
   }
   .icon-share {
-    background-image: url("//i.imgur.com/PGIC6ME.png");
+    background-image: url("https://i.imgur.com/PGIC6ME.png");
   }
   .icon-previous {
-    background-image: url("//i.imgur.com/LIqj0nr.png");
+    background-image: url("https://i.imgur.com/LIqj0nr.png");
   }
   .icon-play {
-    background-image: url("//i.imgur.com/xlBv5aR.png");
+    background-image: url("https://i.imgur.com/xlBv5aR.png");
   }
   .icon-pause {
-    background-image: url("//i.imgur.com/lIhwduj.png");
+    background-image: url("https://i.imgur.com/lIhwduj.png");
   }
   .icon-next {
-    background-image: url("//i.imgur.com/Mb6Nzj5.png");
+    background-image: url("https://i.imgur.com/Mb6Nzj5.png");
   }
   .icon-volume-up {
-    background-image: url("//i.imgur.com/qqdoddi.png");
+    background-image: url("https://i.imgur.com/qqdoddi.png");
   }
   .icon-volume-down {
-    background-image: url("//i.imgur.com/3iirf2f.png");
+    background-image: url("https://i.imgur.com/3iirf2f.png");
   }
   
   .copyrights {
