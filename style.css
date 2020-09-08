@@ -1,10 +1,9 @@
-
-body
+*:focus
 {
-    font-family: Helvetica, Arial;
-    margin: 0;
-    background-color: #ffeff5;
+    outline: none;
 }
+
+
 
 #app-cover
 {
