@@ -1,10 +1,12 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +14,8 @@ body{
     background: #091921;
 }
 
-.clock{
+.clock
+{
     width: 350px;
     height: 350px;
     display: flex;
@@ -28,7 +31,8 @@ body{
                 inset 0 15px 15px rgba(0, 0, 0, 0.3);
 }
 
-.clock:before{
+.clock:before
+{
     content: '';
     position: absolute;
     width: 15px;
@@ -40,26 +44,31 @@ body{
 
 .clock .hour, 
 .clock .min,
-.clock .sec{
+.clock .sec
+{
     position: absolute;
 }
 
-.clock .hour, .hr{
+.clock .hour, .hr
+{
     width: 160px;
     height: 160px;
 }
 
-.clock .min, .mn{
+.clock .min, .mn
+{
     width: 190px;
     height: 190px;
 }
 
-.clock .sec, .sc{
+.clock .sec, .sc
+{
     width: 230px;
     height: 230px;
 }
 
-.hr, .mn, .sc{
+.hr, .mn, .sc
+{
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -67,7 +76,8 @@ body{
     border-radius: 50%;
 }
 
-.hr:before{
+.hr:before
+{
     content: '';
     position: absolute;
     width: 8px;
@@ -77,7 +87,8 @@ body{
     z-index: 10;
 }
 
-.mn:before{
+.mn:before
+{
     content: '';
     position: absolute;
     width: 4px;
@@ -87,7 +98,8 @@ body{
     z-index: 11;
 }
 
-.sc:before{
+.sc:before
+{
     content: '';
     position: absolute;
     width: 2px;
