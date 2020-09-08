@@ -1,15 +1,15 @@
 $(document).ready(function () {
     var playlist = [
       {
-        title: "Flute - Demo by Jacky Ryuk",
+        title: "Flute",
         artist: "Jacky Ryuk",
-        mp3: "https://github.com/thaitudienha/thaitudienha.github.io/blob/master/Musics/1.mp3",
+        mp3: "http://www.mediafire.com/file/9mzjk2giva7ro4c/1.mp3",
         poster: "https://i.imgur.com/sCbrzQa.png"
       },
       {
-        title: "Ke Cap - Test by Jacky Ryuk",
+        title: "Test by Jacky Ryuk",
         artist: "Jacky Ryuk",
-        mp3: "https://github.com/thaitudienha/thaitudienha.github.io/blob/master/Musics/2.mp3",
+        mp3: "http://www.mediafire.com/file/lw3r3r8pi0cr0wt/2.mp3",
         poster: "https://i.imgur.com/lXvsuBu.png"
       },
       
