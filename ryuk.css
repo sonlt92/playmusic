@@ -6,9 +6,6 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-.grid-container {
-    display: grid;
-  }
 body
 {
     display: -webkit-box;
