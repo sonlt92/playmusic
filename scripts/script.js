@@ -13,7 +13,7 @@ new Vue({
           name: "We Don’t Talk Anymore",
           artist: "Jacky Ryuk",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          source: "https://ryuk.s3.filebase.com/1.mp3",
+          source: "https://raw.githubusercontent.com/thaitudienha/thaitudienha.github.io/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=nYLDXvhXZS4",
           favorited: false
         },
@@ -21,7 +21,7 @@ new Vue({
           name: "Kẻ Cắp Gặp Bà Già",
           artist: "Jacky Ryuk",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-          source: "https://ryuk.s3.filebase.com/2.mp3",
+          source: "https://raw.githubusercontent.com/thaitudienha/thaitudienha.github.io/master/mp3/2.mp3",
           url: "https://www.youtube.com/watch?v=M0pMkwwFGmA",
           favorited: true
         },
@@ -29,7 +29,7 @@ new Vue({
           name: "Way back home",
           artist: "Jacky Ryuk",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-          source: "https://ryuk.s3.filebase.com/3.mp3",
+          source: "https://raw.githubusercontent.com/thaitudienha/thaitudienha.github.io/master/mp3/3.mp3",
           url: "https://www.youtube.com/watch?v=_dEiwQDybDU",
           favorited: false
         },
